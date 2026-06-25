@@ -1,6 +1,6 @@
 import csv
 with open("Nifty 50 Historical Data.csv","r",newline="") as file1:
-    with open("data.csv","w",newline="") as file2:
+    with open("output_signals.csv","w",newline="") as file2:
         writer=csv.writer(file2)
         reader=csv.reader(file1)
         rows=list(reader)
